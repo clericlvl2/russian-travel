@@ -1,0 +1,7 @@
+.cover {
+  position: relative;
+  width: 90%;
+  margin: 0 auto 92px auto;
+  /*background: url('../../images/trains-background.jpg') center;*/
+  /*background-size: cover;*/
+}

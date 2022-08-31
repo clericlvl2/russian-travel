@@ -1,0 +1,5 @@
+.lead__cover {
+  margin: 0 0 8px 0;
+  object-position: center;
+  object-fit: contain;
+}
