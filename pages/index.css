@@ -1,0 +1,12 @@
+@import url('../vendor/fonts.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__language-list/header__language-list.css');
+@import url('../blocks/header/__language-option/header__language-option.css');
+@import url('../blocks/header/__language-option/_state/header__language-option_state_checked.css');
+
+body {
+  background: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
