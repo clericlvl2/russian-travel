@@ -1,8 +1,16 @@
 .header__language-option {
-  display: inline;
   margin: 0 0 0 20px;
   padding: 0;
+  text-decoration: none;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  color: #fff;
+}
+
+@media screen and (max-width: 540px) {
+  .header__language-option {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
