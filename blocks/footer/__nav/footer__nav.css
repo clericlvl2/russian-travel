@@ -1,5 +1,15 @@
 .footer__nav {
+  display: flex;
+  justify-content: start;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 540px) {
+  .footer__nav {
+    flex-direction: column;
+    justify-content: start;
+    gap: 32px;
+  }
 }

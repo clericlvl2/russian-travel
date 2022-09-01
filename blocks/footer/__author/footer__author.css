@@ -5,3 +5,15 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+@media screen and (max-width: 720px) {
+  .footer__author {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__author {
+    line-height: 14px;
+  }
+}
