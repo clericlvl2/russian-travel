@@ -8,12 +8,20 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 768px) {
-  /* стили для малого смартфона */
+@media screen and (max-width: 744px) {
+  .lead__subtitle {
+    width: 340px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .lead__subtitle {
     width: 288px;
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 20px;
   }
-} 
+}
