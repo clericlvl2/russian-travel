@@ -53,6 +53,7 @@
 
 
 .root {
+  min-width: 320px;
   background: #2A2C2F;
   color: #fff;
   font-family: 'Inter', sans-serif;
