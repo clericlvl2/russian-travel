@@ -10,7 +10,13 @@
   .intro {
     width: 95%;
     padding-bottom: 88px;
-    min-width: 320px;
+    min-width: 288px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .intro {
+    width: 90%;
   }
 }
 
@@ -20,16 +26,3 @@
   }
 }
 
-/*
-@media screen and (min-width: 1080px) and (max-width: 1279px) {
-
-}
-
-@media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 320px) {
-
-}
-*/
