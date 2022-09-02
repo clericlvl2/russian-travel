@@ -3,7 +3,31 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
-  grid-auto-flow: column;
   gap: 48px 40px;
+}
 
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 32px;
+    margin: 0 auto 50px auto;
+  }
 }
