@@ -8,6 +8,6 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    min-width: 320px;
+    min-width: 288px;
   }
 }
