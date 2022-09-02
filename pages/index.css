@@ -1,3 +1,5 @@
+@import url('../blocks/root/root.css');
+
 @import url('../vendor/fonts.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -13,12 +15,10 @@
 
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__title/intro__title.css');
-@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__paragraph/intro__paragraph.css');
 @import url('../blocks/intro/__list/intro__list.css');
-@import url('../blocks/intro/__list-item/intro__list-item.css');
 @import url('../blocks/intro/__list-text/intro__list-text.css');
-@import url('../blocks/intro/__list-item/_text/intro__list-item_text_description.css');
-@import url('../blocks/intro/__list-item/_text/intro__list-item_text_value.css');
+@import url('../blocks/intro/__list-text/_type/intro__list-text_type_value.css');
 
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/gallery/gallery.css');
@@ -45,13 +45,3 @@
 @import url('../blocks/footer/__nav/footer__nav.css');
 @import url('../blocks/footer/__nav-link/footer__link.css');
 @import url('../blocks/footer/__author/footer__author.css');
-
-
-
-
-.root {
-  min-width: 320px;
-  background: #2A2C2F;
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-}
