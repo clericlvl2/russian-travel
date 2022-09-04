@@ -3,5 +3,11 @@
   justify-content: start;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 5px 0;
+}
+
+@media screen and (max-width: 540px) {
+  .header__language-list {
+    padding-bottom: 7px;
+  }
 }
