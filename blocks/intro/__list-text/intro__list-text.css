@@ -1,8 +1,7 @@
 .intro__list-text {
-  display: inline;
   padding: 0;
   margin: 0;
   font-weight: 700;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 1.5;
 }

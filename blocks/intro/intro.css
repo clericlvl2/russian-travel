@@ -1,5 +1,5 @@
 .intro {
-  width: 90%;
+  width: calc(100% - 48px*2);
   max-width: 984px;
   min-width: 720px;
   margin: 0 auto;
@@ -8,15 +8,15 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 95%;
-    padding-bottom: 88px;
+    width: calc(100% - 24px*2);
     min-width: 288px;
+    padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .intro {
-    width: 90%;
+    width: calc(100% - 16px*2);
   }
 }
 
