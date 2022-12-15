@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 548px) {
   .gallery {
     grid-template-columns: 1fr;
     grid-gap: 12px;

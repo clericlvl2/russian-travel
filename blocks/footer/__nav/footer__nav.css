@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 548px) {
   .footer__nav {
     flex-direction: column;
     gap: 32px;

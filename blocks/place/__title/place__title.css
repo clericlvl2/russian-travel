@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 548px) {
   .place__title {
     width: calc(100% - 16px*2);
     margin-left: 16px;

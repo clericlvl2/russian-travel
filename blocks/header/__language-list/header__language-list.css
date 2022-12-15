@@ -6,7 +6,7 @@
   padding: 0 0 5px 0;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 548px) {
   .header__language-list {
     padding-bottom: 7px;
   }
